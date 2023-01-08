@@ -1,0 +1,124 @@
+*{
+    font-size: 22px;
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+body{
+    background-color: #f3e6c6;
+    /* background-image: url(LatePositiveHerculesbeetle-size_restricted.gif); */
+    background-image: url(bag2.jpg);
+
+    background-position: cover;
+    color: #c5cde5;
+
+}
+
+header{
+    background-color: #95866687;
+    font-style: italic;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 3rem;
+    width: 99%;
+    padding:auto;
+    color: #000;
+    
+
+}
+header div{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.container{
+    background-color: #fffcf847;
+    border-radius: 15px;
+    border: 3px solid  #494847;
+    display: grid;
+    width: 30%;
+    margin: 100px auto auto auto;
+    height: 25rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.block{
+    padding: 20px;
+}
+
+.block input{
+    width: 40%;
+    font-family: cursive;
+    
+    border-radius:10px;
+    margin: 10px 0px 10px 0px ;
+}
+
+
+.block h1{
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.block h4{
+  padding: 7px 0px;
+  font-size: 1rem;
+  font-family: cursive;
+    
+}
+
+.block img{
+    width: 100px;
+    border-radius :70px;
+    margin:auto;
+
+}
+.block a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+   color: black; 
+}
+
+.btn button{
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: black;
+    background-color: beige;
+    width: 35%;   
+}
+.btn button:hover{
+    color: white;
+    background-color: #494847;
+    cursor: pointer;
+}
+.block a:hover{
+    color: #c5cde5;
+}
+
+
+@media(max-width:900px){
+   .block img{
+    width: 70px;
+   }
+}
+
+@media(max-width:800px){
+    header{
+        text-align: center;
+    }
+    .container{
+        width: 50%;
+    }
+    .block input{
+        width:60%;
+    };
+}
+
+@media(max-width:400px){
+    .container{
+        width: 95%;
+    }
+}
